@@ -4,14 +4,12 @@ namespace T09_Ejercicio9
 {
     class Electrodomestico
     {
-        //No sé a qué se refiere con "Indica que se podrán heredar"
-        private double precioBase;
-        private string color;
-        private string consumoEnerg;
-        private double peso;
+        //Atributos public para poder ser visibles por otras clases
+        public double precioBase;
+        public string color;
+        public string consumoEnerg;
+        public double peso;
 
-        //No se a qué se refiere con declara constantes en el constructor
-        //por defecto
         public Electrodomestico()
         {
             precioBase = 100;
