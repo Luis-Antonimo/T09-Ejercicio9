@@ -24,6 +24,7 @@ namespace T09_Ejercicio9
         {
             precioBase = precioNew;
             peso = pesoNew;
+            color = "blanco";
             consumoEnerg = "F";
             peso = 5;
         }
